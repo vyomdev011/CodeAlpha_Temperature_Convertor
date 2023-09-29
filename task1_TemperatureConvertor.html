@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature_Conversion</title>
+    <link rel="stylesheet" type="text/css" href="Task1_Tempcov_stylesheet.css">
+   
+   
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="title">
+            <h1>Temperature Converter</h1>
+            <span class="Temperature-icon"><i class="fa-solid fa-temperature-three-quarters"></i></span>
+        </div>
+        <br>
+        <div class="convertor-row">
+            <div class="col">
+                <input type="number" name="inputTemp" placeholder="Enter the Temperature">
+                <select name="inputUnit" id="TempInput">
+                    <option value="celsius" selected id="celsius">celsius</option>
+                    <option value="fahrenheit" id="fahrenheit">fahrenheit</option>
+                    <option value="kelvin" id="kelvin">Kelvin</option>
+
+                </select>
+            </div>
+            <br>
+            
+            <br>
+            <div class="col">
+                <input type="number" name="outputTemp" placeholder="Output Temperature">
+                <select name="output" id="TempOutput">
+                    <option value="celsius">celsius</option>
+                    <option value="fahrenheit" selected>fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+
+                </select>
+            </div>
+           
+        </div>
+
+    </div>
+    <script src="temperature-convertor.js"></script>
+</body>
+
+</html>
+
+
+
+
+

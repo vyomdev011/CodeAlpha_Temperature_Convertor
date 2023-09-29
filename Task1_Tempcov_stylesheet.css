@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to left bottom, rgb(238, 144, 144), rgb(230, 211, 173));
+    font-family: monospace, sans-serif;
+    color: rgb(35, 0, 0);
+}
+.container {
+    background: rgba(255,255,255,0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h1 {
+    font-size: 32px;
+    
+}
+.convertor-row {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+input {
+    width: 300px;
+    font-family: monospace;
+    float: right;
+    padding: 5px;
+    outline: none;
+    background: rgba(255,255,255,0.3);
+    border-color: rgba(255, 255, 255, 0.6);
+    color: rgb(56, 2, 2);
+    font-size: 18px;
+}
+select{
+    color:rgb(44, 6, 6);
+    background-color: rgb(195, 168, 158);
+}
+input::placeholder {
+    color: darkgray;
+}
